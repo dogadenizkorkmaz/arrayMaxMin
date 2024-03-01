@@ -3,10 +3,10 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        int[] liste = {56, 34, 1, 8, 101, -2, -33};
+        int[] liste = {15,12,788,1,-1,-778,2,0};
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print("-33 ile 101 arasında bir numara giriniz: ");
+        System.out.print("-778 ile 778 arasında bir numara giriniz: ");
         int numara = scanner.nextInt();
 
         Arrays.sort(liste); // Dizinin sıralanması
